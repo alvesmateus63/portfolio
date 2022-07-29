@@ -1,0 +1,103 @@
+$white: #fff;
+$dark-purple: #20063B;
+$dark-green: #62C370;
+
+/*
+  Banner
+*/
+
+.bannerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  height: 50vh;
+  padding: 0;
+  margin: 0;
+  background-color: $dark-purple;
+
+  .bannerText {
+    padding-bottom: 1rem;
+    color: $white;
+    font-size: 2rem;
+    text-align: center;
+
+    .myName {
+      color: $dark-green;
+      font-size: 3rem;
+    }
+
+  }
+  
+  .bannerButtons {
+    display: flex;
+    gap: 1rem;
+  }
+
+}
+
+/*
+  Projects
+*/
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
+  margin-bottom: 1rem;
+
+  h2 {
+    color: $dark-purple;
+  }
+
+  .cardsArea {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+/*
+  About
+*/
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
+  background-color: $dark-purple;
+
+  h2 {
+    color: $dark-green;
+  }
+
+}
+
+.aboutMeContent {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  color: $white;
+
+  .profilePic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 50%;
+    }
+
+  }
+
+  .aboutMeDesc {
+    flex: 1;
+    max-width: 420px;
+  }
+}
